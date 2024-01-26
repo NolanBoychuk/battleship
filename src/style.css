@@ -1,1 +1,50 @@
-
+#leftBodyDiv, #rightBodyDiv {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height:400px;
+    width:400px;
+}
+.gridElement {
+    border:solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.legendsItems {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#bodyDiv {
+    display:flex;
+    gap:40px;
+    justify-content:center;
+}
+#titleDiv {
+    display:flex;
+    justify-content:center;
+}
+.ship {
+    background-color:blue;
+}
+.hit {
+    background-color:red;
+}
+.miss {
+    background-color:yellow;
+}
+#inputsDiv {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding-top:20px;
+}
+#bottomDiv {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:20px;
+    align-items:center;
+    padding-top:20px;
+}
